@@ -1,0 +1,29 @@
+{
+  "name": "mapnotes-api-node",
+  "version": "1.0.0",
+  "description": "MapNotes API in-memory implementation in node",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-vampiire/mapnotes-api-node.git"
+  },
+  "author": "the-vampiire",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/the-vampiire/mapnotes-api-node/issues"
+  },
+  "homepage": "https://github.com/the-vampiire/mapnotes-api-node#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.8",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
