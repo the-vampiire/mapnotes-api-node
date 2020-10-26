@@ -37,7 +37,10 @@ const updateNoteFeatures = (req, res) => {
 
   db.saveFeatures(noteId, body);
 
-  res.status(201).header("Location", `${API_ORIGIN}/notes/${noteId}/features`);
+  res
+    .status(201)
+    .header("Location", `${API_ORIGIN}/notes/${noteId}/features`)
+    .send();
 };
 
 const getNotesCollection = (_, res) => res.json(db.findMapNotes());
