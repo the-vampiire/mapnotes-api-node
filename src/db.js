@@ -9,7 +9,7 @@ const findMapNote = (noteId) => findEntity(mapNoteStore)(noteId);
 const findFeatures = (noteId) => {
   const features = findEntity(featureStore)(noteId);
 
-  return JSON.parse(features);
+  return features;
 };
 
 const findMapNotes = () => Object.values(mapNoteStore);
